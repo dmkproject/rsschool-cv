@@ -1,17 +1,112 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>CV Dmitry Bychko</title>
+  <meta name="description" content="CV Dmitry Bychko">
+  <meta name="author" content="Dmitry">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+  
+  <nav class="nav_menu">
+    <ul class="nav_menu_list container">
+      <li><a href="#main_header">Dmitry Bychko</a></li>
+      <li><a href="#contacts_header">Contacts</a></li>
+      <li><a href="#about_header">About me</a></li>
+      <li><a href="#skills_header">Skills</a></li>
+      <li><a href="#code_header">Code Example</a></li>
+      <li><a href="#expirience_header">Expirience</a></li>
+      <li><a href="#education_header">Education</a></li>
+      <li><a href="#english_header">Projects</a></li>
+      <li><a href="#projects_header">Projects</a></li>
+    </ul>
+  </nav>
+
+  <main class="main_info">
+    <h1 id="main_header">Dmitry Bychko</h1>
+    <section class="contacts">
+      <h2 id="contacts_header">Contacts</h2>
+      <ul>
+        <li>
+          <span>email: virus_dmk@mail.ru</span>
+        </li>
+        <li>
+          <span>skype: Dmitry Bychko</span>
+        </li>
+        <li>
+          <span>telegram: @hereforawhile</span>
+        </li>
+        <li>
+          <span>discord: Dima_(@dmkproject)</span>
+        </li>
+      </ul>   
+      <img src="./img/developer.webp" alt="Dmitry's photo">   
+    </section>
+  </main>
+
+  <section class="about_author">
+    <h2 id="about_header">About me</h2>
+    <p class="about_text">There are a lot of ways to be happy. I'm happy <b>here</b> where I am now. We can be unhappy but it will not bring profit. I'm going ahead right now, not very talented, somtimes with bad expirience and faults, but getting up and go. This course is just new possibility to step up to the next stair. It's interesting! I like studying. It brings me happy when my brain works. I have no ehough time for course becouse of work(12hr/d 5d/w )but I'll try to do my best to finish course. 
+      See ya!</p>
+    
+
+  </section>
+
+  <section class="skills">
+    <h2 id="skills_header">Skills</h2>
+    <ul class="skills_list">
+      <li><span>Markup: HTML, CSS</span></li>
+      <li><span>Сore: JS, Java</span></li>
+      <li><span>Db: MySQL</span></li>
+      <li><span>Other: Git, Linux, Bash</span></li>
+      <li><span>
+        Use: VSCode, Idea, Ubuntu</span></li>   
+    </ul>
+  </section>
+
+  <section class="code_example">
+    <h2 id="code_header">Code Example</h2>
+    <pre>
+      <code lang="javascript">
+        (function () {
+          var testArr = ['h', 'e', 'l'];
+          var res = [ 'l', 'o'];
+          console.log(testArr.concat(res)); 
+          console.log(testArr); 
+        })();
+      </code>
+    </pre>
+  </section>
+
+  <section class="expirience">
+    <h2 id="expirience_header">Expirience</h2>
+    <p class="expirience_text">I don't have real expirience, but I tried to do some things. I have used Js, Java, HTML, CSS, MySql.</p>
+  </section>
+
+  <section class="education">
+    <h2 id="education_header">Education</h2>
+    <p class="education_text">College graduate: Technician-programmer & Semiconductor manufacturing operator</p>
+  </section>
+
+  <section class="english">
+    <h2 id="english_header">English level</h2>
+    <p class="english_text">My English level is Pre-Intermediate. I can speak a little, I understand about 60-100% of speech depending of the situation and theme.</p>
+  </section>
+
+  <section class="projects">
+    <h2 id="projects_header">Projects</h2>
+    <ul>
+      <li><a href="https://dmkproject.github.io/rsschool-cv/cv">RS CV HTML Project</a></li>
+    </ul>
+  </section>
+
   <script src="js/scripts.js"></script>
 </body>
+
 </html>
