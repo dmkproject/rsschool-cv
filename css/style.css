@@ -32,6 +32,7 @@ h2 {
 .container {
     width: 1140px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .nav_menu {
@@ -68,7 +69,7 @@ h2 {
 }
 
 main {
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 #main_header {
@@ -99,6 +100,29 @@ main {
     margin-top: 20px;
 }
 
+.skills {
+    margin-top: 80px;
+}
+
+.skills .skills_list {
+    margin-top: 20px;
+}
+
+.code_example {
+    margin-top: 80px;
+}
+
+.code_example .code_example_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.expirience {
+    margin-top: 20px;
+}
+
+.expirience .expirience_text {
+    margin-top: 20px;
+}
 
 
 
