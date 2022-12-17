@@ -12,19 +12,19 @@
 
 <body>
 
-  <header id="header">
+  <header class="header" id="header">
     <div class="container">
       <nav class="nav_menu">
         <ul class="nav_menu_list">
-          <li><a href="#main_header">Dmitry Bychko</a></li>
-          <li><a href="#contacts_header">Contacts</a></li>
-          <li><a href="#about_header">About me</a></li>
-          <li><a href="#skills_header">Skills</a></li>
-          <li><a href="#code_header">Code Example</a></li>
-          <li><a href="#expirience_header">Expirience</a></li>
-          <li><a href="#education_header">Education</a></li>
-          <li><a href="#english_header">Projects</a></li>
-          <li><a href="#projects_header">Projects</a></li>
+          <li class="nav_item"><a class="nav_link nav_developer_name" href="#main_header">Dmitry Bychko</a></li>
+          <li class="nav_item"><a class="nav_link" href="#contacts_header">Contacts</a></li>
+          <li class="nav_item"><a class="nav_link" href="#about_header">About me</a></li>
+          <li class="nav_item"><a class="nav_link" href="#skills_header">Skills</a></li>
+          <li class="nav_item"><a class="nav_link" href="#code_header">Code Example</a></li>
+          <li class="nav_item"><a class="nav_link" href="#expirience_header">Expirience</a></li>
+          <li class="nav_item"><a class="nav_link" href="#education_header">Education</a></li>
+          <li class="nav_item"><a class="nav_link" href="#english_header">Projects</a></li>
+          <li class="nav_item"><a class="nav_link" href="#projects_header">Projects</a></li>
         </ul>
       </nav>
     </div>
@@ -38,21 +38,21 @@
         <div class="contacts_container">
           <h2 id="contacts_header">Contacts</h2>
           <ul class="contacts_list">
-            <li>
-              <span>email: virus_dmk@mail.ru</span>
+            <li class="contacts_item">
+              <span class="contacts_email">email: virus_dmk@mail.ru</span>
             </li>
-            <li>
-              <span>skype: Dmitry Bychko</span>
+            <li class="contacts_item">
+              <span class="contacts_skype">skype: Dmitry Bychko</span>
             </li>
-            <li>
-              <span>telegram: @hereforawhile</span>
+            <li class="contacts_item">
+              <span class="contacts_telegram">telegram: @hereforawhile</span>
             </li>
-            <li>
-              <span>discord: Dima_(@dmkproject)</span>
+            <li class="contacts_item">
+              <span class="contacts_discord">discord: Dima_(@dmkproject)</span>
             </li>
           </ul>
         </div>
-        <img src="./img/developer.webp" width="500" alt="Developer's photo">
+        <img class="contacts_img" src="./img/developer.webp" width="500" alt="Developer's fun avatar">
       </section>
     </div>
 
@@ -75,11 +75,11 @@
       <div class="container">
         <h2 id="skills_header">Skills</h2>
         <ul class="skills_list">
-          <li><span>Markup: HTML, CSS</span></li>
-          <li><span>Сore: JS, Java</span></li>
-          <li><span>Db: MySQL</span></li>
-          <li><span>Other: Git, Linux, Bash</span></li>
-          <li><span>
+          <li class="skills_item"><span>Markup: HTML, CSS</span></li>
+          <li class="skills_item"><span>Сore: JS, Java</span></li>
+          <li class="skills_item"><span>Db: MySQL</span></li>
+          <li class="skills_item"><span>Other: Git, Linux, Bash</span></li>
+          <li class="skills_item"><span>
               Use: VSCode, Idea, Ubuntu</span></li>
         </ul>
       </div>
@@ -89,7 +89,7 @@
       <div class="container">
         <h2 id="code_header">Code Example</h2>
         <pre>
-      <code class="code_example_text" lang="javascript">
+      <code class="code_example_text">
         (function () {
           var testArr = ['h', 'e', 'l'];
           var res = [ 'l', 'o'];
@@ -130,7 +130,7 @@
       <div class="container">
         <h2 id="projects_header">Projects</h2>
         <ul class="projects_list">
-          <li><a href="https://dmkproject.github.io/rsschool-cv/cv">RS CV HTML Project</a></li>
+          <li class="projects_item"><a href="https://dmkproject.github.io/rsschool-cv/cv">RS CV HTML Project</a></li>
         </ul>
       </div>
     </section>
@@ -140,10 +140,10 @@
   <footer class="footer">
     <div class="container">
       <ul class="footer_list">
-        <li><a href="https://github.com/dmkproject">Dmitry's GitHub</a>
+        <li class="footer_item"><a class="footer_link" href="https://github.com/dmkproject">Dmitry's GitHub</a>
         </li>
-        <li><span>2022</span></li>
-        <li><a href="https://rs.school/images/rs_school_js.svg"><img src="./img/rs_school_js.svg" width="200"
+        <li class="footer_item"><span class="footer_year">2022</span></li>
+        <li class="footer_item"><a class="footer_link" href="https://rs.school/images/rs_school_js.svg"><img src="./img/rs_school_js.svg" width="200"
               height="50" alt="rs school image link"></a>
         </li>
       </ul>

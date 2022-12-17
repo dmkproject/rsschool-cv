@@ -8,6 +8,10 @@
     color: #000000
 }
 
+html {
+    scroll-behavior: smooth; 
+  }
+
 a:link {
     text-decoration: none;
 }
@@ -43,9 +47,7 @@ h2 {
     padding: 0 20px;
 }
 
-header {
-    /* position: fixed;
-    top: 0; */
+.header {
     width: 100%;
     background-color: #e0e0ff;
 }
@@ -53,6 +55,8 @@ header {
 .nav_menu_list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+
     height: 70px;
     margin: 0 auto;
 
@@ -62,18 +66,19 @@ header {
     color: #ed1388;
 }
 
-.nav_menu_list li {
+.nav_menu_list .nav_item {
     margin: auto 0;
 }
 
-.nav_menu_list li:first-child a {
+.nav_menu_list .nav_item:first-child .nav_link {
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 500;
 }
 
-.nav_menu_list li a:hover {
+.nav_menu_list .nav_link:hover {
     background-color: #ff0000;
     color: #f0ffff;
+    transition: 0.5s;
 }
 
 main {
