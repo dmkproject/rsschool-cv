@@ -1,0 +1,41 @@
+# Dmitry Bychko
+
+## Contacts
+
+- email: virus_dmk@mail.ru
+- skype: Dmitry Bychko
+- telegram: @hereforawhile
+- discord: Dima_(@dmkproject)
+
+## About me
+There are a lot of ways to be happy. I'm happy **here** where I am now. We can be unhappy but it will not bring profit. I'm going ahead right now, not very talented, somtimes with bad expirience and faults, but getting up and go. This course is just new possibility to step up to the next stair. It's interesting! I like studying. It brings me happy when my brain works. I have no ehough time for course becouse of work(12hr/d 5d/w )but I'll try to do my best to finish course. 
+See ya!
+
+## Skills
+Markup: `HTML`, `CSS`       
+Сore: `JS`, `Java`      
+Db: `MySQL`     
+Other: `Git`, `Linux`, `Bash`       
+Use: `VSCode`, `Idea`, `Ubuntu`    
+
+## Code example
+
+```javascript
+(function () {
+  var testArr = ['h', 'e', 'l'];
+  var res = [ 'l', 'o'];
+  console.log(testArr.concat(res)); 
+  console.log(testArr); 
+})();
+```
+## Expirience
+I don't have real expirience, but I tried to do some things. I have used Js, Java, HTML, CSS, MySql.
+
+## Education
+College graduate: Technician-programmer & Semiconductor manufacturing operator
+
+## English level
+My English level is Pre-Intermediate. I can speak a little, I understand about 60-100% of speech depending of the situation and theme.
+
+## Projects
+[CV Markdown project link](https://dmkproject.github.io/rsschool-cv/cv)
