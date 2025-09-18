@@ -1,5 +1,10 @@
 # Dzmitry Bychko
+
+![My avatar](https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24288118/2363A_0070_v0550.1080K.jpg?quality=90&strip=all&crop=20.861878453039%2C0%2C58.276243093923%2C100&w=1440)
+*** 
+
 ## Junior Frontend Developer
+
 
 ### Contacts:
 
@@ -31,7 +36,7 @@ There are a lot of ways to be happy. I'm happy here where I am now. We can be un
 
 ### Work Experience
 
-No experience
+- [RS School CV markdown task](https://dmkproject.github.io/rsschool-cv/cv)
 
 ### Education 
 
