@@ -1,2 +1,2 @@
-# rsschool-cv
-https://dmkproject.github.io/rsschool-cv/cv
+# rsschool--html-cv
+https://dmkproject.github.io/rsschool-cv/
